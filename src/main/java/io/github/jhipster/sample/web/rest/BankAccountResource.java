@@ -31,7 +31,7 @@ public class BankAccountResource {
 
     private static final String ENTITY_NAME = "jhipsterSampleMicroserviceBankAccount";
 
-    @Value("${jhipster.clientApp.name}")
+    @Value("${jhipster.clientApp.name:jhipsterSampleMicroservice}")
     private String applicationName;
 
     private final BankAccountRepository bankAccountRepository;
