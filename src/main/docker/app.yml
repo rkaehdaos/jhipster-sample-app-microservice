@@ -10,6 +10,8 @@ services:
       - SPRING_CLOUD_CONSUL_HOST=consul
       - SPRING_CLOUD_CONSUL_PORT=8500
       - SPRING_DATASOURCE_URL=jdbc:postgresql://postgresql:5432/jhipsterSampleMicroservice
+      - SPRING_DATASOURCE_USERNAME=jhipsterSampleMicroservice
+      - SPRING_DATASOURCE_PASSWORD=
       - SPRING_LIQUIBASE_URL=jdbc:postgresql://postgresql:5432/jhipsterSampleMicroservice
     healthcheck:
       test:
